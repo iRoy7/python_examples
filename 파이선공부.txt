@@ -1,0 +1,70 @@
+Python주요 메모
+- 카멜 -> 클래스
+- 스네이크 -> 함수, 변수
+
+문자열 반복 연산자: *
+print("안녕하세요" * 3)
+print(3 * "안녕하세요")
+
+
+정수나누기연산자: //
+print("3//2 = ", 3 // 2)
+
+제곱 연산자: **
+print("2 ** 4 = ", 2 ** 4)
+
+input()
+int()
+float()
+str()
+
+upper() lower()
+문자열 양옆의 공백 제거하기: strip() 
+isOO()
+
+find(), rfind()
+
+문자열과 in연산자
+>>> print("안녕" in "안녕하세요")
+
+문자열 자르기: split()
+>>>  a = "10 20 30 40 50".split(" ")
+>>> print(a)
+['10', '20', '30', '40', '50']
+
+
+조건문
+if 불 값이 나오는 표현식:
+    4칸 뒤 불 값이 참일 때 실행할 문장
+    4칸 뒤 불 값이 참일 때 실행할 문장
+
+
+min(), max(), sum()
+
+reversed(): generator로서 결과값을 변경한다
+
+enumerate()
+item()
+
+*가변 매개변수, 기본 매개변수
+
+*global keyword
+
+*튜플, 람다
+
+tuple_test = (273,)
+
+map(func, list) : generator 결과값으로 <map object list>
+filter(func, list) : generator 결과값으로 <filter object list>
+
+lambda 매개변수 : 리턴값
+lambda x, y: x*y
+
+* with keyword
+with open("basic.txt", "w") as file:
+    file.write("Hello Python Programming..!")
+
+
+
+
+
