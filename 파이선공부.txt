@@ -65,6 +65,14 @@ with open("basic.txt", "w") as file:
     file.write("Hello Python Programming..!")
 
 
+[[ Modules ]]
+import math
+import random
+import sys
+import os
+import datetime
+import time
+import urllib
 
 
 
