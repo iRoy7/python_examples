@@ -11,8 +11,6 @@ def print_hello():
 call_10_times(print_hello)
 
 
-
-
 #lambda
 power = lambda x: x*x
 under_3 = lambda x: x < 3
@@ -35,5 +33,6 @@ output_b = filter(under_3, list_input_a)
 print("# filter() 함수의 실행결과")
 print("filter(under_3, list_input_a): ", output_b)
 print("filter(under_3, list_input_a): ", list(output_b))
-print();
+print()
+
 
