@@ -22,3 +22,16 @@ else:
     print("원의 넓이: ", 3.14*number_input_a*number_input_a)
     print()
 
+
+# try except finally
+
+try :
+    text = input("출생년도 입력: ")
+    year = int(text)
+    age = 2021 - year + 1
+    print("당신은 %d 살입니다." % age)
+except :
+    print("예상치 못한 상황으로 종료합니다.")
+finally :
+    print("이용해주셔서 감사합니다.")
+    
